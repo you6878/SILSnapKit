@@ -14,6 +14,9 @@
 		029C605A2100BE3A009CC974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029C60582100BE3A009CC974 /* LaunchScreen.storyboard */; };
 		029C60652100BE3A009CC974 /* HowlSnapkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029C60642100BE3A009CC974 /* HowlSnapkitTests.swift */; };
 		029C60702100BE3A009CC974 /* HowlSnapkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029C606F2100BE3A009CC974 /* HowlSnapkitUITests.swift */; };
+		430207A9CAFE83862DAF2D36 /* Pods_HowlSnapkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F78254089C67CF0BF31CC40 /* Pods_HowlSnapkit.framework */; };
+		55E4A0EAFA36D2B9964CB6F0 /* Pods_HowlSnapkitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3418845168EFF5ACFA5070D2 /* Pods_HowlSnapkitTests.framework */; };
+		9BEE4417617B1D920349046F /* Pods_HowlSnapkitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F614E57D03E6DA6FA4E9E0B /* Pods_HowlSnapkitUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		029C606B2100BE3A009CC974 /* HowlSnapkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlSnapkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		029C606F2100BE3A009CC974 /* HowlSnapkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlSnapkitUITests.swift; sourceTree = "<group>"; };
 		029C60712100BE3A009CC974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F78254089C67CF0BF31CC40 /* Pods_HowlSnapkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlSnapkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB169A321782223307C14C5 /* Pods-HowlSnapkitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlSnapkitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlSnapkitUITests/Pods-HowlSnapkitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3418845168EFF5ACFA5070D2 /* Pods_HowlSnapkitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlSnapkitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66116C5D3AC8CFC199C43A7D /* Pods-HowlSnapkitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlSnapkitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlSnapkitTests/Pods-HowlSnapkitTests.release.xcconfig"; sourceTree = "<group>"; };
+		7DC54728DBAB3EAEF5494C9F /* Pods-HowlSnapkitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlSnapkitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlSnapkitUITests/Pods-HowlSnapkitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F614E57D03E6DA6FA4E9E0B /* Pods_HowlSnapkitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlSnapkitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95228F74EF70B3A55FE418D0 /* Pods-HowlSnapkitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlSnapkitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlSnapkitTests/Pods-HowlSnapkitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C437927AE4A70EC7454F58A /* Pods-HowlSnapkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlSnapkit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlSnapkit/Pods-HowlSnapkit.release.xcconfig"; sourceTree = "<group>"; };
+		A7A91B3042DDAA440DF5943E /* Pods-HowlSnapkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlSnapkit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlSnapkit/Pods-HowlSnapkit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430207A9CAFE83862DAF2D36 /* Pods_HowlSnapkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E4A0EAFA36D2B9964CB6F0 /* Pods_HowlSnapkitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEE4417617B1D920349046F /* Pods_HowlSnapkitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				029C60632100BE3A009CC974 /* HowlSnapkitTests */,
 				029C606E2100BE3A009CC974 /* HowlSnapkitUITests */,
 				029C604D2100BE39009CC974 /* Products */,
+				D99DF62D2ACC8E20A0462F5B /* Pods */,
+				68131FAC26F2FC8D674F62A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = HowlSnapkitUITests;
 			sourceTree = "<group>";
 		};
+		68131FAC26F2FC8D674F62A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F78254089C67CF0BF31CC40 /* Pods_HowlSnapkit.framework */,
+				3418845168EFF5ACFA5070D2 /* Pods_HowlSnapkitTests.framework */,
+				8F614E57D03E6DA6FA4E9E0B /* Pods_HowlSnapkitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D99DF62D2ACC8E20A0462F5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7A91B3042DDAA440DF5943E /* Pods-HowlSnapkit.debug.xcconfig */,
+				9C437927AE4A70EC7454F58A /* Pods-HowlSnapkit.release.xcconfig */,
+				95228F74EF70B3A55FE418D0 /* Pods-HowlSnapkitTests.debug.xcconfig */,
+				66116C5D3AC8CFC199C43A7D /* Pods-HowlSnapkitTests.release.xcconfig */,
+				7DC54728DBAB3EAEF5494C9F /* Pods-HowlSnapkitUITests.debug.xcconfig */,
+				1FB169A321782223307C14C5 /* Pods-HowlSnapkitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 029C60742100BE3A009CC974 /* Build configuration list for PBXNativeTarget "HowlSnapkit" */;
 			buildPhases = (
+				2BF3E0DDC9FC314C12CEC681 /* [CP] Check Pods Manifest.lock */,
 				029C60482100BE39009CC974 /* Sources */,
 				029C60492100BE39009CC974 /* Frameworks */,
 				029C604A2100BE39009CC974 /* Resources */,
+				53EDBD05FE8CA7A66D740750 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 029C60772100BE3A009CC974 /* Build configuration list for PBXNativeTarget "HowlSnapkitTests" */;
 			buildPhases = (
+				2F4E6B8E87366F39008A6225 /* [CP] Check Pods Manifest.lock */,
 				029C605C2100BE3A009CC974 /* Sources */,
 				029C605D2100BE3A009CC974 /* Frameworks */,
 				029C605E2100BE3A009CC974 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 029C607A2100BE3A009CC974 /* Build configuration list for PBXNativeTarget "HowlSnapkitUITests" */;
 			buildPhases = (
+				15FF9B310AF18E76C88494A2 /* [CP] Check Pods Manifest.lock */,
 				029C60672100BE3A009CC974 /* Sources */,
 				029C60682100BE3A009CC974 /* Frameworks */,
 				029C60692100BE3A009CC974 /* Resources */,
@@ -250,6 +294,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15FF9B310AF18E76C88494A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlSnapkitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF3E0DDC9FC314C12CEC681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlSnapkit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F4E6B8E87366F39008A6225 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlSnapkitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53EDBD05FE8CA7A66D740750 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HowlSnapkit/Pods-HowlSnapkit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlSnapkit/Pods-HowlSnapkit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		029C60482100BE39009CC974 /* Sources */ = {
@@ -428,15 +547,13 @@
 		};
 		029C60752100BE3A009CC974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A91B3042DDAA440DF5943E /* Pods-HowlSnapkit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlSnapkit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlSnapkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +563,13 @@
 		};
 		029C60762100BE3A009CC974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C437927AE4A70EC7454F58A /* Pods-HowlSnapkit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlSnapkit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlSnapkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +579,14 @@
 		};
 		029C60782100BE3A009CC974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95228F74EF70B3A55FE418D0 /* Pods-HowlSnapkitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlSnapkitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlSnapkitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +597,14 @@
 		};
 		029C60792100BE3A009CC974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66116C5D3AC8CFC199C43A7D /* Pods-HowlSnapkitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlSnapkitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlSnapkitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +615,13 @@
 		};
 		029C607B2100BE3A009CC974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC54728DBAB3EAEF5494C9F /* Pods-HowlSnapkitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlSnapkitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlSnapkitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +632,13 @@
 		};
 		029C607C2100BE3A009CC974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB169A321782223307C14C5 /* Pods-HowlSnapkitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlSnapkitUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlSnapkitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
